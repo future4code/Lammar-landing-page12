@@ -1,3 +1,19 @@
+ Pablo-landingPage
+footer{
+  align-items: center;
+  background-color:#dbe3eb;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+  color: black;
+  text-align: center;
+}
+a{
+  background-color:#dbe3eb;
+  color:#dbe3eb;
+=======
 /* Estilização do header */
 *{
     margin: 0%;
@@ -32,4 +48,5 @@ header div a:link {
 }
 header div a:hover {
     color:grey;
+
 }
