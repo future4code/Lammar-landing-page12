@@ -1,0 +1,67 @@
+
+
+main {
+   width: 940px;
+   margin: 0 auto;
+}
+
+.contato  {
+   font-size: 1.5rem;
+   margin-bottom: 50px;
+   padding: 5px 10px;
+  
+}
+
+.contato li {
+   color:#ffffff;  
+   text-decoration: none;
+   
+}
+
+.icone{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content:left;
+   padding: 10px;
+
+
+}
+
+.icones-contato {
+   
+   width: 3rem;
+   height: 3rem;
+   padding: 0 20px 0 0;
+}
+
+
+form {
+margin: 10px 10px;
+
+}
+
+form label, form p {
+   display: block;
+   font-size: 20px;
+   margin: 0 10 10px;
+   color: #ffffff;
+   
+
+}
+.input-padrao {
+   display: block;
+   margin: 0 0 20px;
+   padding: 10px 20px;
+   width: 50%;
+
+
+}
+
+.checkbox {
+   margin: 20px 0;
+}
+.radio label{
+   margin: 3px 3px ;
+   padding: 5px 0;
+}

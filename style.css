@@ -1,51 +1,138 @@
 *{
-   margin: 0;
-   padding: 0;
-   background-color: #3b3e3c;
-   font-family: Arial;
+    margin: 0;
+    padding: 0;
+    /* background-color: #3b3e3c; */
+    font-family: Arial;
+ }
+
+/* Estilização do header */
+body{
+    background-color:
+    #3b3e3c; ;
 }
+header{
+    display: flex;
+    background-color: #dbe3eb;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+
+a{
+  background-color:#dbe3eb;
+  color:#dbe3eb;
+}
+
+.logo{
+    height: 45px;
+    width: 45px;
+}
+
+.logo-e-texto{
+    display: flex;
+    align-items: center;
+}
+
+.texto-header{
+    display: flex;
+}
+
+.texto{
+    padding-right: 15px;
+}
+
+header div a {
+    color: black;
+}
+
+header div a:link {
+    text-decoration: none;
+}
+
+header div a:hover {
+    color:grey;
+
+}
+
 h1{
-   text-align: center;
-   background:white ;
-   padding: 20px;
-   font-size: 4rem;
-   color: rgb(110, 21, 21);
-   font-style: italic;
-   text-shadow: rgb(138, 132, 132) 2px 3px 2px;
+    text-align: center;
+    background:white ;
+    padding: 30px 10px;
+    font-size: 4rem;
+    color: rgb(110, 21, 21);
+    font-style: italic;
+    text-shadow: rgb(138, 132, 132) 2px 3px 2px;
 
-}
+ 
+ }
 
-.cards{
-   display: flex;
-   flex-wrap: wrap;
-   width: 50rem;
-   height: 30rem;
-   margin: 50px auto;
-   box-shadow: 5px 9px 5px rgb(224, 221, 221);
+ h2{
+    color:orangered;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(253, 253, 253);
+    letter-spacing: .1rem;
+    text-shadow: rgb(202, 201, 201) 2px 3px 2px;
+ 
+ }
 
+ 
+ .cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50rem;
+    height: 30rem;
+    margin: 50px auto;
+    box-shadow: 5px 9px 5px rgb(224, 221, 221);
    
+ }
+ 
+ 
+ .paragraph p{
+    background-color:#ffffff;
+    text-align:center;
+    font-weight: bold;
+    padding: 20px ;
+    letter-spacing: .1rem ;
+    color:rgb(150, 40, 0);}
 
-   
-}
+/* Estilização do rodape */
+.rodape{
+    align-items: center;
+    background-color:#ffffff;
+    color: black;
+    text-align: center;
+    
+  }
 
-h2{
-   color:orangered;
-   text-align: center;
-   padding: 50px;
-   background-color: rgb(253, 253, 253);
-   letter-spacing: .1rem;
-   text-shadow: rgb(202, 201, 201) 2px 3px 2px;
+  .rodape img{
+      margin: 10px;
+      width: 5rem;
+      height: 5rem;
+      background-color:#ffffff;
+      padding: 20px;
+ }
+ .rodape a{
+     background-color: #ffffff;
+ }
 
-}
+  .network{
+      font-size: 2rem;
+      font-weight: bold;
+      background-color:#ffffff;
+      padding: 2rem;
 
+    }
 
-.texto p{
-   background-color: white;
-   text-align: center;
-   font-weight: bold;
-   padding: 0 0 100px;
-   letter-spacing: .1rem;
-   
-
-
-}
+    .network a{
+        background-color: #ffffff;
+    }
+    .reservado{
+        padding: 10px;
+        font-size: 1rem;
+        color: white;
+        font-style: italic;
+        background-color: #3b3e3c;
+        letter-spacing: .1rem;
+    }
