@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Estilização do header */
+header{
+    display: flex;
+    background-color: #dbe3eb;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+.logo{
+    height: 45px;
+    width: 45px;
+}
+.logo-e-texto{
+    display: flex;
+    align-items: center;
+}
+.texto-header{
+    display: flex;
+}
+.texto{
+    padding-right: 15px;
+}
+header div a {
+    color: black;
+}
+header div a:link {
+    text-decoration: none;
+}
+header div a:hover {
+    color:grey;
+}
+
+/* Estilização da main (página inicial)*/
+.main-pagina-inicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    color: black;
+    font-size: 150%;
+}
+.espacamento{
+    margin-bottom: 1%;
+}
+#img-de-background{
+    background-image: url(img/img-background.jpg);
+}
+
+/* Estilização do footer */
+footer{
+    align-items: center;
+    background-color:#dbe3eb;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+}
+footer a{
+    background-color:#dbe3eb;
+    color:#dbe3eb;
+}
+.logo-redes-sociais{
+    padding: 5px 2px 2px;
+    width: 30px;
+    height: 30px;
+}
