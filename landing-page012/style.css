@@ -56,8 +56,8 @@ footer{
     align-items: center;
     background-color:#dbe3eb;
     left: 0;
-    bottom: 0;
-    width: 100%;
+    bottom: 0%;
+    width: 100vw;
     color: black;
     text-align: center;
     padding-top: 5px;
@@ -73,6 +73,7 @@ footer a{
 }
 #rodape-fixado{
     position: fixed;
+    
 }
 /* ..................................................................................................... */
 
@@ -99,4 +100,44 @@ main section div p{
     justify-content: center;
     margin-top: 2%;
     font-size: 200%;
+}
+/* estilizacao (quem somos) */
+.glass-container{
+    width: 700px;
+    height: 375px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 38px;
+    backdrop-filter: blur(6px);
+    background-color: rgba(15,19,20, 0.175);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 1px rgba(255,255,255,0.4) solid;
+    border-bottom: 1px rgba(40,40,40,0.35) solid;
+    border-right: 1px rgba(40,40,40,0.35) solid;
+    margin-left: 30%;
+
+    
+    position: absolute;
+    top: 35%;
+	
+    
+}
+main{
+    background-image: url(img/img-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+span{
+    font-size: 20px;
+}
+h1{
+    position: absolute;
+    flex-direction: row;
+    margin-bottom: 20%;
 }
