@@ -3,6 +3,8 @@
     padding: 0%;
 }
 
+/* ..................................................................................................... */
+
 /* Estilização do header */
 header{
     display: flex;
@@ -34,23 +36,6 @@ header div a:link {
 header div a:hover {
     color:grey;
 }
-
-/* Estilização da main (página inicial)*/
-.main-pagina-inicial{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5%;
-    color: black;
-    font-size: 150%;
-}
-.espacamento{
-    margin-bottom: 1%;
-}
-#img-de-background{
-    background-image: url(img/img-background.jpg);
-}
-
 /* Estilização do footer */
 footer{
     align-items: center;
@@ -75,6 +60,25 @@ footer a{
     position: fixed;
     
 }
+
+/* ..................................................................................................... */
+
+/* Estilização da main (página inicial)*/
+.main-pagina-inicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    color: black;
+    font-size: 150%;
+}
+.espacamento{
+    margin-bottom: 1%;
+}
+#img-de-background{
+    background-image: url(img/img-background.jpg);
+}
+
 /* ..................................................................................................... */
 
 /* Estilização (main nossos produtos) */
@@ -101,6 +105,9 @@ main section div p{
     margin-top: 2%;
     font-size: 200%;
 }
+
+/* ..................................................................................................... */
+
 /* estilizacao (quem somos) */
 .glass-container{
     width: 700px;
@@ -117,15 +124,11 @@ main section div p{
     border: 1px rgba(255,255,255,0.4) solid;
     border-bottom: 1px rgba(40,40,40,0.35) solid;
     border-right: 1px rgba(40,40,40,0.35) solid;
-    margin-left: 30%;
-
-    
+    margin-left: 25%;
     position: absolute;
     top: 35%;
-	
-    
 }
-main{
+.main-quem-somos{
     background-image: url(img/img-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -136,7 +139,7 @@ main{
 span{
     font-size: 20px;
 }
-h1{
+.titulo-quem-somos{
     position: absolute;
     flex-direction: row;
     margin-bottom: 20%;
