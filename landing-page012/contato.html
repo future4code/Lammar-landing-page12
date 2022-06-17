@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contato.css">
 </head>
 <body>
     <Header>
@@ -20,9 +21,72 @@
         </div>
     </Header>
 
-    <main> 
-        <!-- Conteúdo da página  -->
-    </main>
+    <h2>Nossos Contatos</h2>
+
+  <section class="contato">
+      <ul class="icone">
+         <img src="./img/conta.png" alt="" class="icones-contato">
+         <li>Central de Atendimento (00) 1234-1234 | Segunda á Sexta, das 8h ás 18h </li>
+      </ul>
+      <ul class="icone">
+         <img src="./img/whatsapp.png" alt="" class="icones-contato">
+         <li>WhatsApp: (00) 1234-2345 | | Segunda á Sexta, das 8h ás 18h </li>
+      </ul>
+      <ul class="icone">
+         <img src="./img/logo email.png" alt="" class="icones-contato">
+         <li target="_blank">E-mail: sac@4comfort.com</li>
+      </ul>     
+  </section>
+
+
+  <h3>CADASTRE-SE PARA RECEBER PROMOÇÕES E DESCONTOS EXCLUSIVOS.</h3>
+
+
+
+  <main>
+     <form>
+        <label for="nomesobrenome">Nome e sobrenome</label>
+        <input type="text" id="nomesobrenome" class="input-padrao">
+
+        <label for="emial">E-mail</label>
+        <input type="text" id="email" class="input-padrao">
+
+        <label for="telefone">Telefone</label>
+         <input type="text" id="telefone" class="input-padrao">
+
+         <label for="mensagem">Mensagem</label>
+         <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+         <div>
+            <p>Como gostaria o nosso Contato?</p>
+
+         <div class="radio" >
+            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+
+            <label for="telefone"><input type="radio" name="contato" value="radio-telefone" id="telefone">Telefone</label>
+
+            <label for="whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+         </div>
+         
+        
+         <span class="checkmark">
+            <label><input type="checkbox" >Gostaria de receber nossas novidades por e-mail?</label>
+        </span>
+        <hr>
+    
+           
+         
+       
+     </form>
+    
+ </main>
+
+ <span class="bnt">
+    <input type="submit" value="Enviar formulário">
+</span>
+
+
+
 
     <footer>
         <p>Redes Sociais:</p>
