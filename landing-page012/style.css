@@ -77,6 +77,11 @@ footer a{
 }
 #img-de-background{
     background-image: url(img/img-background.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
 /* ..................................................................................................... */
@@ -144,3 +149,4 @@ span{
     flex-direction: row;
     margin-bottom: 20%;
 }
+
