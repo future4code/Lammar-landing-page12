@@ -1,0 +1,51 @@
+@media screen and (min-device-width : 320px) and (max-device-width : 480px){
+     
+  .glass-container{
+    width: 300px;
+    height: 500px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 38px;
+    backdrop-filter: blur(6px);
+    background-color: rgba(15,19,20, 0.175);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 1px rgba(255,255,255,0.4) solid;
+    border-bottom: 1px rgba(40,40,40,0.35) solid;
+    border-right: 1px rgba(40,40,40,0.35) solid;
+    margin-left: 12%;
+    position: absolute;
+    top: 20%;
+}
+.main-quem-somos{
+  background-image: url(img/img-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+span{
+  font-size: 15px;
+}
+.titulo-quem-somos{
+  position: absolute;
+  flex-direction: row;
+  margin-bottom: 90%;
+}
+.logo{
+  display: none;
+}
+.texto-header{
+  display: flex;
+  font-size: 12px;
+}
+.texto{
+  padding-right: 10px;
+}
+
+}
