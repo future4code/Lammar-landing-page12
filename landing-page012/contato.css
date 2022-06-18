@@ -1,3 +1,9 @@
+
+body{
+   min-height: 100vh;
+   min-width: 100vw;
+}
+
 h2{
    text-align: center;
    margin: 2em;
@@ -9,6 +15,7 @@ main {
   
    width: 940px;
    margin: 1em auto;
+   padding: 2rem 4rem;
 }
 
 .contato  {
@@ -101,4 +108,27 @@ display: flex;
 justify-content: center;
 margin: 20px 0 50px;
 
+}
+
+   
+
+@media screen and (min-width: 350px) and (max-width:768px) {
+    main, selection, span{
+      width: 100%;
+      padding: 0;
+      display: block;
+      align-items: center;
+   }
+
+   
+}
+@media screen and (min-width: 350px) and (max-width:600px) {
+   header {
+      text-align: center;
+      width: 100%;
+      display: block;
+      align-items: center;
+   }
+
+   
 }
