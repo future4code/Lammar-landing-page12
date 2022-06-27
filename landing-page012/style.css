@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* ..................................................................................................... */
+
+/* Estilização do header */
+header{
+    display: flex;
+    background-color: #dbe3eb;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+.logo{
+    height: 45px;
+    width: 45px;
+}
+.logo-e-texto{
+    display: flex;
+    align-items: center;
+}
+.texto-header{
+    display: flex;
+}
+.texto{
+    padding-right: 15px;
+}
+header div a {
+    color: black;
+}
+header div a:link {
+    text-decoration: none;
+}
+header div a:hover {
+    color:grey;
+}
+/* Estilização do footer */
+footer{
+    align-items: center;
+    background-color:#dbe3eb;
+    left: 0;
+    bottom: 0%;
+    width: 100vw;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+}
+footer a{
+    background-color:#dbe3eb;
+    color:#dbe3eb;
+}
+.logo-redes-sociais{
+    padding: 5px 2px 2px;
+    width: 30px;
+    height: 30px;
+}
+#rodape-fixado{
+    position: fixed;
+    
+}
+
+/* ..................................................................................................... */
+
+/* Estilização da main (página inicial)*/
+.main-pagina-inicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    color: black;
+    font-size: 150%;
+}
+.espacamento{
+    margin-bottom: 1%;
+}
+#img-de-background{
+    background-image: url(img/img-background.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* ..................................................................................................... */
+
+/* Estilização (main nossos produtos) */
+.img-tenis{
+    width: 100%;
+}
+.container-de-produtos{
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    justify-content: center;
+    align-content: space-evenly;
+}
+main section div h3{
+    margin-left: 25%;
+    margin-top: -10%;
+}
+main section div p{
+    margin-left: 25%;
+    margin-bottom: 20%;
+}
+#titulo-produtos{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 200%;
+}
+
+/* ..................................................................................................... */
+
+/* estilizacao (quem somos) */
+.glass-container{
+    width: 700px;
+    height: 375px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 38px;
+    backdrop-filter: blur(6px);
+    background-color: rgba(15,19,20, 0.175);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 1px rgba(255,255,255,0.4) solid;
+    border-bottom: 1px rgba(40,40,40,0.35) solid;
+    border-right: 1px rgba(40,40,40,0.35) solid;
+    margin-left: 25%;
+    position: absolute;
+    top: 35%;
+}
+.main-quem-somos{
+    background-image: url(img/img-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+span{
+    font-size: 20px;
+}
+.titulo-quem-somos{
+    position: absolute;
+    flex-direction: row;
+    margin-bottom: 20%;
+}
+
